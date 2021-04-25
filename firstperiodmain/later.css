@@ -36,6 +36,7 @@ body{
   /* Use # to select the element with that id  */
   #home{
     text-align: center;
+      background-color: #dda0dd;
     /*background-color: black;*/
   }
   
