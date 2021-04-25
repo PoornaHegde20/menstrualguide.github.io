@@ -1,0 +1,42 @@
+/* Use the tag name to select all elements of that type */
+body{
+    background-color: #FAFFFA;
+  }
+  
+  img{
+    width: 25%;
+    height: 25%;
+    margin: 2em;
+  }
+  
+  h1{
+    font-weight: bold;
+    color: red;
+  }
+  
+  /* Use . to select elements of a specific class */
+  .page{
+    /* When importing fonts (in this case Bebas Neue) from Google Fonts, be sure 
+        to include fallbacks because a browser may not support that font or the font 
+        may take a second to load.  */
+    font-family: 'Courier Prime', monospace; 
+    color: black;
+    padding: 50px; /* px = pixels */
+  }
+  
+  
+  /* Use # to select the element with that id  */
+  #home{
+    text-align: center;
+  }
+  
+  /* Chain selectors in order to target specific elements that follow others */
+  /* In this case we are selecting all a tags inside the element with the id home-buttons */
+  #home-buttons a {
+    margin: 0.5em; /* em = relative to the fontsize of the element */
+    margin-top: 3%; /* % is relative to parent element */ 
+  }
+  
+  #back-btn{
+    margin-right: 1em;
+  }
