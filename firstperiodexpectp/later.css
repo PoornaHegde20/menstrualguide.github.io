@@ -1,0 +1,69 @@
+* Use the tag name to select all elements of that type */
+body{
+    background-color:white;
+    text-align: left;
+  }
+  
+  img{
+    width: 25%;
+    height: 25%;
+    margin: 2em;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  h1{
+    font-weight: bold;
+    color: deeppink;
+    font-family: 'Courier Prime', monospace; 
+  }
+
+  /* Use . to select elements of a specific class */
+  .page{
+    /* When importing fonts (in this case Bebas Neue) from Google Fonts, be sure 
+        to include fallbacks because a browser may not support that font or the font 
+        may take a second to load.  */
+    font-family: 'Times New Roman', Times, serif; 
+    color: black;
+    padding: 50px; /* px = pixels */
+    font-size: x-large;
+  }
+  
+  
+  /* Use # to select the element with that id  */
+  #home{
+    text-align: center;
+    /*background-color: black;*/
+  }
+  
+  /* Chain selectors in order to target specific elements that follow others */
+  /* In this case we are selecting all a tags inside the element with the id home-buttons */
+  #home-buttons a {
+    margin: 0.5em; /* em = relative to the fontsize of the element */
+    margin-top: 3%; /* % is relative to parent element */ 
+    color: teal;
+  }
+ /* .button {
+    border: 0;
+    border-radius: 0.25rem;
+    background: orangered;
+    color: white;
+    font-family: -system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    cursor: pointer;
+  } */
+  
+  #back-btn{
+    /*margin-right: 1em;*/
+    text-align: right;
+  }
