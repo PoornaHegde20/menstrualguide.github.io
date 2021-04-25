@@ -1,6 +1,5 @@
 * Use the tag name to select all elements of that type */
 body{
-    background-color: #8e4585; 
     text-align: left;
   }
   
@@ -16,7 +15,6 @@ body{
     margin-right: auto;
     width: 25%;
   }
-
   h1{
     font-weight: bold;
     color: deeppink;
